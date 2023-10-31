@@ -21,7 +21,7 @@ import LogoStarBank from '../../Assets/LogoStarbank.png'
     return (
         <div className={`nav-bar ${scrolled ? 'scrolled' : ''}`}>
             <div className ='left-side'>
-                <img src={LogoStarBank}/>
+                <img src={LogoStarBank} alt='logo'/>
 
                 
             </div>

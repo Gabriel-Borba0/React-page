@@ -29,22 +29,22 @@ const Carousel =() =>{
             className="mySwiper"
           >
             <SwiperSlide>
-              <img src={image1} />
+              <img src={image1} alt='img-exp' />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={image2}  />
+              <img src={image2}  alt='img-exp'/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={image3}  />
+              <img src={image3}  alt='img-exp'/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={image4}  />
+              <img src={image4}  alt='img-exp'/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={image5}  />
+              <img src={image5}  alt='img-exp'/>
             </SwiperSlide>
             <SwiperSlide>
-              <img src={image6}  />
+              <img src={image6}  alt='img-exp'/>
             </SwiperSlide>
             
           </Swiper>

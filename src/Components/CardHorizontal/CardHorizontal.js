@@ -6,7 +6,7 @@ const CardHorizontal = ({path, text, orientation}) => {
     };
     return (
         <div className="cardHorizontal" style={cardStyle}>
-            <img src={path}/>
+            <img src={path} alt='img-card'/>
             
             <div className="text">
                 {text}
