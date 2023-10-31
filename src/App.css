@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.App .Introducao{
+  color:var(--text-color);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  width: 80%;
+  margin-top: 60px;
+}
+.App .Carousel{
+max-width: 800px;
+display: flex;
+margin: 0 auto;
+
+
+}
+

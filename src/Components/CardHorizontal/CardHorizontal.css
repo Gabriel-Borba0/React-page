@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+.cardHorizontal{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin-top: 40px;
+}
+.cardHorizontal img{
+width:200px;
+margin: 0 20px 0 20px;
+
+}
+.cardHorizontal .text{
+    color:var(--text-color);
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+}
