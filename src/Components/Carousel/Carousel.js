@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
@@ -14,7 +14,6 @@ import image5 from '../../Assets/5image.png';
 import image6 from '../../Assets/6image.png';
 import { EffectFlip, Pagination, Navigation } from 'swiper/modules';
 
-const images = [image1,image2,image3,image4,image5,image6]
 
 const Carousel =() =>{
     return (
