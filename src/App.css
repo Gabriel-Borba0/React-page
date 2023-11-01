@@ -38,9 +38,9 @@
   margin-top: 150px;
   
   color:var(--green-color);
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 700;
-    box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px 4px rgba(0,0,0,0.3);
     transition: 0.3s;
     border-radius: 15px;
     align-items: center;
@@ -49,6 +49,7 @@
 
 
 }
+
 .App .Produto-moreinfo{
   text-align: center;
   font-family: Roboto;
@@ -59,9 +60,9 @@
   margin-top: 50px;
   margin-bottom: 100px;
   color:var(--green-color);
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 700;
-    box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);
+    box-shadow: 0 0 10px 4px rgba(0,0,0,0.3);
     transition: 0.3s;
     border-radius: 15px;
     align-items: center;
@@ -69,12 +70,12 @@
     height: 150px;
 }
 .App .Produto-info:hover{
-  box-shadow: 0 8px 16px 0 var(--purple-color);
-  transition: 0.6s;
+  box-shadow: 0 0 10px 4px var(--purple-color);
+  transition: 0.8s;
 }
 .App .Produto-moreinfo:hover{
-  box-shadow: 0 8px 16px 0 var(--purple-color);
-  transition: 0.6s;
+  box-shadow: 0 0 10px 4px var(--purple-color);
+  transition: 0.8s;
 }
 
 

@@ -20,7 +20,7 @@ function App() {
 
 
 <div className='Produto-info'>
-  Feito com design totalmente personalizado e de maneira que funcione  em qualquer desktop.
+  Feito com design totalmente personalizado e leve, possibilitando ser utilizado em qualquer desktop.
 </div>
 <div className='Produto-moreinfo'>
   Fazendo mudanças no próprio banco de dados utilizando apenas o software sem necessidade de entrar diretamente no banco de dados utilizado.
