@@ -18,9 +18,7 @@
   color:var(--text-color);
     font-size: 30px;
     font-weight: 700;
-    animation: reverse-animation 1ms ease-in-out ;
-    animation-timeline: view(block);
-    animation-range: entry 30% exit 0;
+
 }
 
 
@@ -30,13 +28,6 @@
   margin: 0 auto;
   
 }
-@keyframes reverse-animation {
-  from{
-      opacity: 0;
-      
-  }
-  to{
-      opacity: 1;
-  }
-}
+
+
 

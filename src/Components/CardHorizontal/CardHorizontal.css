@@ -9,9 +9,7 @@
     box-shadow: 0 0 8px 0 rgba(0,0,0,0.3);
     transition: 0.3s;
     border-radius: 15px;
-    animation: reverse-animation 1ms reverse both;
-    animation-timeline: view(block);
-    animation-range: entry 30% exit 0;
+
 }
 .cardHorizontal img{
     width: 230px;
@@ -35,12 +33,3 @@
 
 }
 
-@keyframes reverse-animation {
-    from{
-        opacity: 0;
-        
-    }
-    to{
-        opacity: 1;
-    }
-}
