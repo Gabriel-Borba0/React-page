@@ -12,7 +12,7 @@ function App() {
       <About/>
       
       <div className= 'Introducao'>
-      O produto  consiste em um sistema intuitivo de fácil acesso por parte dos funcionários, com filtros de permissão baseado nos cargos, permitindo alteração e exclusão de dados cadastrados. 
+      O produto  consiste em um sistema intuitivo e de fácil acesso pelos funcionários, trazendo  filtros de permissão baseado nos cargos e permitindo alteração e exclusão de dados cadastrados em seu banco de dados de maneira eficiente e segura. 
       </div>
       
     
