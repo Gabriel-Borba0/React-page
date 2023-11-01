@@ -18,6 +18,13 @@ function App() {
     
       <Carousel/>
 
+
+<div className='Produto-info'>
+  Feito com design totalmente personalizado e de maneira que funcione  em qualquer desktop mesmo que não possua um desempenho acima da média.
+</div>
+<div className='Produto-moreinfo'>
+  Fazendo mudanças no próprio banco de dados utilizando apenas o software sem haver a necessidade de entrar diretamente no banco de dados utilizado.
+</div>
     <Contaact/>
 
     
