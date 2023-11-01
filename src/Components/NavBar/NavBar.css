@@ -5,15 +5,18 @@
     flex-direction: column;
     align-items: center;
     width:100%;
+    background-color: var(--purple-color);
+    z-index: 999;
     
 }
 .nav-bar.scrolled{
     transition:background-color 0.3s;
-    background-color:var(--nav-color);
+    background-color:var(--purple-color);
     flex-direction: row;
     height: 70px;
     position: fixed;
     justify-content: space-around;
+    
 }
 .nav-bar.scrolled .left-side{
 margin-left: -20%;
@@ -30,7 +33,25 @@ font-size: 16px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
+margin-right: 20px;
+position: relative;
+cursor: pointer;
 }
+.right-side div::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px; /* Tamanho da borda inferior */
+    bottom: 0;
+    left: 0;
+    background-color: var(--red-bg); /* Cor da borda */
+    transition: width 0.3s ease; /* Efeito de transição */
+    opacity: 0; /* Inicialmente transparente */
+  }
+  .right-side div:hover::before {
+    width: 100%;
+    opacity: 1; /* Torna a borda visível ao passar o mouse */
+  }
 @media (max-width:1287px) {
     .nav-bar.scrolled .left-side{
         margin-left: 0;

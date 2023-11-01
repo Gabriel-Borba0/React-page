@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
 
-.cardHorizontal{
+.cardContato{
     display: flex;
     align-items: center;
     width: 70%;
@@ -13,13 +13,12 @@
     animation-timeline: view(block);
     animation-range: entry 30% exit 0;
 }
-.cardHorizontal img{
-    width: 230px;
-    margin: 0 5px 0 5px;
-    height: 230px;
-    
+.cardContato:hover{
+    box-shadow: 0 8px 16px 0 var(--purple-color);
+    transition: 0.6s;
+
 }
-.cardHorizontal .text{
+.cardContato .text{
     color: var(--green-color);
     font-family: Roboto;
     font-size: 22px;
@@ -28,13 +27,12 @@
     line-height: normal;
     text-align: left;
 }
-
-.cardHorizontal:hover{
-    box-shadow: 0 8px 16px 0 var(--purple-color);
-    transition: 0.6s;
-
+.cardContato img{
+    width: 230px;
+    margin: 0 5px 0 5px;
+    height: 230px;
+    
 }
-
 @keyframes reverse-animation {
     from{
         opacity: 0;

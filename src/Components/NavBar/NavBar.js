@@ -1,6 +1,7 @@
 import './NavBar.css'
 import React, { useState, useEffect } from 'react';
 import LogoStarBank from '../../Assets/LogoStarbank.png'
+
  const NavBar = () =>{
     const [scrolled,setScrolled] = useState(false);
     const handleScroll = () => {
@@ -25,22 +26,24 @@ import LogoStarBank from '../../Assets/LogoStarbank.png'
 
                 
             </div>
-            <div className='right-side'>
-                <div>
-                    SOBRE
-                </div>
-                <div>
-                    PRODUTO
-                </div>
-                <div>
-                    CONTATO
-                </div>
             
+            <div className='right-side'>
+            <div >
+             
+            </div>
+              <div>
+                
+              </div>
+              <div>
+               
+              </div>
+                </div>
 
             </div>
             
-        </div>
+        
     )
+    
 
 }
 export default NavBar;

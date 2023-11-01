@@ -7,21 +7,36 @@
   align-items: center;
 }
 .App .Introducao{
-  color:var(--text-color);
   text-align: center;
   font-family: Roboto;
-  font-size: 20px;
-  font-style: normal;
+  font-style: bold;
   font-weight: 700;
   line-height: normal;
   width: 80%;
-  margin-top: 60px;
+  margin-top: 200px;
+  margin-bottom: 200px;
+  color:var(--text-color);
+    font-size: 30px;
+    font-weight: 700;
+    animation: reverse-animation 1ms ease-in-out ;
+    animation-timeline: view(block);
+    animation-range: entry 30% exit 0;
 }
+
+
 .App .Carousel{
-max-width: 800px;
-display: flex;
-margin: 0 auto;
-
-
+  max-width: 600px;
+  display: flex;
+  margin: 0 auto;
+  
+}
+@keyframes reverse-animation {
+  from{
+      opacity: 0;
+      
+  }
+  to{
+      opacity: 1;
+  }
 }
 

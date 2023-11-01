@@ -1,0 +1,15 @@
+.contact-icons{
+position: fixed;
+bottom:0;
+right: 0;
+border: none;
+background-color: transparent;
+cursor:pointer;
+
+
+}
+.contact-icons img{
+width: 65px;
+height: 65px;
+
+}

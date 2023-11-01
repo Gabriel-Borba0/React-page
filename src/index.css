@@ -3,6 +3,9 @@
   --background-color:#A29EB3;
   --text-color:#000;
   --nav-color:#B0ADBD;
+  --purple-color:#a848eb;
+  --green-color:#54a112;
+  --red-bg:#bf1f2f;
 }
 body {
   margin: 0;
@@ -11,7 +14,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color:var(--background-color);
+  background-color:#fff;
   color: var(--text-color);
 }
 

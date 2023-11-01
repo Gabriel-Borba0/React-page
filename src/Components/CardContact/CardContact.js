@@ -1,13 +1,11 @@
-import './CardHorizontal.css'
-import '../About/About'
+import './CardContats.css'
 
-
-const CardHorizontal = ({path, text, orientation}) => {
+const CardContato = ({path, text, orientation}) => {
     const cardStyle = {
         flexDirection: orientation ? "row-reverse" : "",
     };
     return (
-        <div className="cardHorizontal" style={cardStyle}>
+        <div className="cardContato" style={cardStyle}>
             <img src={path} alt='img-card'/>
             
             <div className="text">
@@ -16,5 +14,4 @@ const CardHorizontal = ({path, text, orientation}) => {
         </div>
     )
 }
-
-export default CardHorizontal;
+export default CardContato;
